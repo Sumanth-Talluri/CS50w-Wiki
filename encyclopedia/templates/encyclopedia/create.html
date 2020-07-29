@@ -1,0 +1,17 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Search
+{% endblock %}
+
+{% block body %}
+
+    <div>
+        <form action="{% url 'encyclopedia:create' %}" method="POST">
+            {% csrf_token %}
+            {{createform.as_p}}
+            <input type="Submit" name="submit" value="Submit"/>
+        </form>
+    </div>
+
+{% endblock %}
