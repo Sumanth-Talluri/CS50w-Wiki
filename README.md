@@ -1,6 +1,6 @@
 # CS50w Project-1 Wiki
 
-This is the a Wikipedia like website that consists of a number of entries on various topics. Each entry can be viewed by visiting that entry’s page.
+This is a Wikipedia like website that consists of a number of entries on various topics. Each entry can be viewed by visiting that entry’s page.
 
 ## Specification
 
